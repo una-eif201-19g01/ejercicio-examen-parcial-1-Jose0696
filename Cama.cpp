@@ -33,3 +33,7 @@ bool Cama::isEstado() const{
 void Cama::setEstado(bool estado){
 	Cama::estado = estado;
 }
+
+string Cama::toString() {
+	string reporte;
+}
