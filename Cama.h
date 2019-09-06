@@ -6,8 +6,10 @@
 #define EJERCICIOSPUNTEROSVECTORES_CAMA_H
 
 #include <ostream>
+#include <string>
 #include "string"
 
+using namespace std;
 class Cama {
     std::string codigo;
     bool estado;
@@ -28,8 +30,7 @@ public:
     void setEstado(bool estado);
 
     // Método toString
-    std::string toString();
+	std::string toString();
 };
-
 
 #endif //EJERCICIOSPUNTEROSVECTORES_CAMA_H
